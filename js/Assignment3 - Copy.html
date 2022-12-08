@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Assignment</title>
+    <link rel="stylesheet" href="./Assignment.css" />
+  </head>
+  <body>
+    <!-- <h1><span style="color: crimson">HTML II</span></h1> -->
+    <!-- <table> -->
+    <!-- <tr>
+        <th scope="row">Name</th>
+        <td>Ruturaj</td>
+        <td>Rohit</td>
+      </tr>
+      <tr>
+        <th scope="row">Age</th>
+        <td>20</td>
+        <td>25</td>
+      </tr> -->
+
+    <!-- <tr>
+        <th>DAY</th>
+        <th>9am</th>
+        <th>10am</th>
+        <th>11am</th>
+        <th>12am</th>
+      </tr>
+
+      <tr>
+        <th>Monday</th>
+        <td colspan="2">Geography</td>
+        <td>Math</td>
+        <td>Arts</td>
+      </tr>
+      <tr>
+        <th>Tuesday</th>
+        <td colspan="3">Gym</td>
+        <td>Home Ec</td>
+      </tr>
+    </table> -->
+
+    <form action="http://example.com" method="GET">
+      <fildset>
+        <length>Your Details:</length>
+
+        <br />
+        <br />
+        <br />
+
+        <label for="username">Write Username</label>
+        <input type="text" id="username" name="name" />
+        <br />
+        <br />
+        <label for="password">Write Password</label>
+        <input type="password" id="password" name="password" />
+        <br />
+        <br />
+        <label for="email">Write Email</label>
+        <input type="email" name="email" />
+      </fildset>
+      <br />
+      <br />
+
+      <fildset>
+        <length>Your Review:</length>
+        <br />
+        <br />
+        <br />
+        <label for="blog">New Blog Post:</label>
+        <textarea id="blog" name="blog" rows="5" cols="30"></textarea>
+
+        <p>
+          Please select your fevorite Game
+          <br />
+          <input type="radio" name="Game" value="Cricket" checked="checked" />
+          Cricket
+          <br />
+          <input
+            type="radio"
+            name="Game"
+            value="Hocky"
+            checked="checked"
+          />Hocky
+          <br />
+          <input
+            type="radio"
+            name="Game"
+            value="Football"
+            checked="checked"
+          />Football
+        </p>
+        <p>
+          Please Select Your Fevorite Music Service(s)
+          <br />
+          <input
+            type="checkbox"
+            name="Service"
+            value="Ganna"
+            checked="checked"
+          />Ganna
+          <br />
+          <input
+            type="checkbox"
+            name="Service"
+            value="LastFm"
+            checked="checked"
+          />LastFm
+          <br />
+          <input
+            type="checkbox"
+            name="Service"
+            value="Spotify"
+            checked="checked"
+          />Spotify
+          <br />
+        </p>
+
+        <p>
+          What type of OS you use
+          <select name="systems">
+            <option value="Macos">Macos</option>
+            <option value="Windows">Windows</option>
+            <option value="Linux">Linux</option>
+          </select>
+        </p>
+
+        <label>
+          <input type="checkbox" name="subscribe" checked="checked" />
+          Sign me up for email updates
+        </label>
+      </fildset>
+      <br />
+
+      <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>

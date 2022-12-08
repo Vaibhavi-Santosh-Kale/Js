@@ -1,0 +1,20 @@
+.Parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child1 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  background-color: rgb(248, 9, 57);
+  /* display: inline-block; */
+}
+.child2 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  background-color: rgb(241, 238, 22);
+  /* float: left; */
+}
